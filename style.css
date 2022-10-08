@@ -178,8 +178,12 @@ section:not(:last-child) {
   }
 
   .hero__container {
-    width: 90%;
+    padding: 0;
+    width: 40ch;
+    display: flex;
+    align-items: center;
   }
+
   .btn--cta {
     background-color: var(--color-grey-4);
   }
