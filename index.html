@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colmar Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--------------------------- HEADER ---------------------------------->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link mobile"
+                ><img
+                  src="./images/ic-logo.svg"
+                  alt="company logo"
+                  class="nav__item__icon"
+                />
+              </a>
+              <a href="#" class="nav__link desktop"
+                ><img
+                  src="./images/ic-logo.svg"
+                  alt="company logo"
+                  class="nav__item__icon"
+                />
+                <span>colmar</span>academy
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link mobile"
+                ><img
+                  src="./images/ic-on-campus.svg"
+                  alt="campus icon"
+                  class="nav__item__icon"
+                />
+              </a>
+              <a href="#" class="nav__link desktop">on campus </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link mobile"
+                ><img
+                  src="./images/ic-online.svg"
+                  alt="study online icon"
+                  class="nav__item__icon"
+                />
+              </a>
+              <a href="#" class="nav__link desktop">online </a>
+            </li>
+
+            <li class="nav__item desktop">
+              <a href="#" class="nav__link desktop">our companies </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link mobile"
+                ><img
+                  src="./images/ic-login.svg"
+                  alt="login in icon"
+                  class="nav__item__icon"
+                />
+              </a>
+              <a href="#" class="nav__link desktop">Sign in </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--------------------------- HERO ---------------------------------->
+    <section class="section--hero">
+      <img
+        src="./images/banner.jpg"
+        alt="girls study together"
+        class="hero__img"
+      />
+      <div class="container hero__container">
+        <div class="hero__info">
+          <h1 class="section__heading hero__heading">
+            learn something new everyday
+          </h1>
+          <p class="hero__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <a href="#" class="btn btn--cta">start here</a>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- FEATURE ---------------------------------->
+    <section class="section--feature">
+      <div class="container feature-container">
+        <article class="feature__article desktop">
+          <img
+            src="./images/information-main.jpg"
+            alt="black man reading book happily"
+            class="article__img"
+          />
+          <h2 class="article__heading">it doesn't hurt to keep practicing</h2>
+          <p class="article__content">
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus, nec consequat neque. Sed non accumsan urna.
+            Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+            dolor consequat, tristique ligula."
+          </p>
+          <p class="article__author">Emanuel, Sr Strategist at Hiring.com</p>
+        </article>
+        <ul class="event__list">
+          <li class="event__item">
+            <picture class="event__img">
+              <!-- prettier-ignore -->
+              <source srcset="./images/information-orientation-mobile.jpg" media="(max-width: 24.5em)"/>
+              <!-- prettier-ignore -->
+              <source srcset="./images/information-orientation.jpg" media="(min-width: 24.5em)"/>
+              <!-- prettier-ignore -->
+              <img srcset="./images/information-orientation-mobile.jpg 1x, ./images/information-orientation.jpg 2x"/>
+            </picture>
+            <div class="event__info">
+              <h3 class="event__heading">orientation date</h3>
+              <p class="event__detail">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              <a href="#">read more</a>
+            </div>
+          </li>
+          <li class="event__item">
+            <picture class="event__img">
+              <!-- prettier-ignore -->
+              <source srcset="./images/information-campus-mobile.jpg" media="(max-width: 24.5em)"/>
+              <!-- prettier-ignore -->
+              <source srcset="./images/information-campus.jpg" media="(min-width: 24.5em)"/>
+              <!-- prettier-ignore -->
+              <img srcset="./images/information-campus-mobile.jpg 1x, ./images/information-campus.jpg 2x"/>
+            </picture>
+            <div class="event__info">
+              <h3 class="event__heading">our campus</h3>
+              <p class="event__detail">find which campus is close by you</p>
+              <a href="#">read more</a>
+            </div>
+          </li>
+          <li class="event__item">
+            <picture class="event__img">
+              <!-- prettier-ignore -->
+              <source srcset="./images/information-guest-lecture-mobile.jpg" media="(max-width: 24.5em)"/>
+              <!-- prettier-ignore -->
+              <source srcset="./images/information-guest-lecture.jpg" media="(min-width: 24.5em)"/>
+              <!-- prettier-ignore -->
+              <img srcset="./images/information-guest-lecture-mobile.jpg 1x, ./images/information-guest-lecture.jpg 2x"/>
+            </picture>
+            <div class="event__info">
+              <h3 class="event__heading">our guest lecture</h3>
+              <p class="event__detail">
+                join keynote with Oliver Sack about music in medical treatment
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--------------------------- LEARNING ---------------------------------->
+    <section class="section--learning">
+      <h2 class="section__heading learning__heading">start learning</h2>
+      <div class="course__container">
+        <div class="course__item">
+          <img
+            src="./images/course-software.jpg"
+            alt="2 computer monitors"
+            class="course__img desktop"
+          />
+          <div class="course__info">
+            <h3 class="course__category">software engineering</h3>
+            <h4 class="course__type desktop">courses</h4>
+            <p class="course__description desktop">
+              web development, mobile, development, iOT, APIs
+            </p>
+          </div>
+        </div>
+        <div class="course__item">
+          <img
+            src="./images/course-computer-art.jpg"
+            alt="smart phone"
+            class="course__img desktop"
+          />
+          <div class="course__info">
+            <h3 class="course__category">computer art</h3>
+            <h4 class="course__type desktop">courses</h4>
+            <p class="course__description desktop">
+              imaging & design, web design, motion graphics & visual effects,
+              computer animation
+            </p>
+          </div>
+        </div>
+        <div class="course__item">
+          <img
+            src="./images/course-design.jpg"
+            alt="man holding camera"
+            class="course__img desktop"
+          />
+          <div class="course__info">
+            <h3 class="course__category">design</h3>
+            <h4 class="course__type desktop">courses</h4>
+            <p class="course__description desktop">
+              user experience design, user research, visual design
+            </p>
+          </div>
+        </div>
+        <div class="course__item">
+          <img
+            src="./images/course-data.jpg"
+            alt="laptop showing data"
+            class="course__img desktop"
+          />
+          <div class="course__info">
+            <h3 class="course__category">data</h3>
+            <h4 class="course__type desktop">courses</h4>
+            <p class="course__description desktop">
+              data science, big data, SQL, data visualization
+            </p>
+          </div>
+        </div>
+        <div class="course__item">
+          <img
+            src="./images/course-business.jpg"
+            alt="chess"
+            class="course__img desktop"
+          />
+          <div class="course__info">
+            <h3 class="course__category">Business</h3>
+            <h4 class="course__type desktop">courses</h4>
+            <p class="course__description desktop">
+              product development, business development, startup
+            </p>
+          </div>
+        </div>
+        <div class="course__item">
+          <img
+            src="./images/course-marketing.jpg"
+            alt="smart watch"
+            class="course__img desktop"
+          />
+          <div class="course__info">
+            <h3 class="course__category">marketing</h3>
+            <h4 class="course__type desktop">courses</h4>
+            <p class="course__description desktop">
+              analytics, content marketing, mobile marketing
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- EXHIBITS ---------------------------------->
+    <section class="section--exhibits">
+      <h2 class="section__heading exhibits__heading">thesis exhibits</h2>
+      <div class="exhibits-container">
+        <div class="exhibits__video-container">
+          <video class="exhibits__video">
+            <source src="./videos/thesis.mp4" type="video/mp4" />
+          </video>
+          <div class="exhibits__video__heading desktop">reimagine urban</div>
+          <div class="exhibits__video__content desktop">
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus, nec consequat neque. Sed non accumsan urna.
+            Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+            dolor consequat, tristique ligula."
+          </div>
+        </div>
+        <ul class="video__list desktop">
+          <li class="video__item">
+            <img
+              src="./images/thesis-fisma.jpg"
+              alt="drawing mobile application design"
+              class="video__img"
+            />
+            <div class="video__text">
+              <h3 class="video__item__heading">fisma: design and prototype</h3>
+              <p class="video__item__description">
+                designer showcase of new prototype product
+              </p>
+            </div>
+          </li>
+          <li class="video__item">
+            <img
+              src="./images/thesis-now-and-then.jpg"
+              alt="buildings"
+              class="video__img"
+            />
+            <div class="video__text">
+              <h3 class="video__item__heading">now and then</h3>
+              <p class="video__item__description">
+                research study about new york
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--------------------------- FOOTER ---------------------------------->
+    <footer class="footer">
+      <p class="copyright">&copy; 2016 Colmar Academy. All rights reserved</p>
+      <ul class="useful-link__list desktop">
+        <li class="useful-link__item">
+          <a href="#" class="useful-link__link">terms</a>
+        </li>
+        <li class="userful-link__item">
+          <a href="#" class="useful-link__link">privacy</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
