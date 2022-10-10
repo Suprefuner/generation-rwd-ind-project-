@@ -327,6 +327,10 @@ section:not(:last-child) {
   background-color: var(--color-grey-2);
 }
 
+.course__item:hover .desktop {
+  display: block;
+}
+
 .course__item:not(:last-child) {
   margin-bottom: 0.8rem;
 }
